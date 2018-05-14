@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[LevelSetViewController tableView:numberOfRowsInSection:]:LevelSetViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[appDelegate.arrayOfLevelSets count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MainScreenViewController loadLevels]:MainScreenViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.arrayOfLevelSets">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MyScene didBeginContact:]:MyScene.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "secondBody.node.position">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MyScene loadLevel]:MyScene.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.selectedLevel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Map initWithGridSize:]:Map.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tileSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SelectLevelViewController collectionView:didSelectItemAtIndexPath:]:SelectLevelViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.selection">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GameScene processUserMotionForUpdate:]:GameScene.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.world.children">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Map addCollisionWallAtPosition:withSize:]:Map.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tileSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Laser updateLaser]:Laser.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MyScene update:]:MyScene.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.player.physicsBody.velocity">
+            </PersistentString>
+            <PersistentString
+               value = "self.player.physicsBody.isResting">
+            </PersistentString>
+            <PersistentString
+               value = "!rollAction">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SelectLevelViewController collectionView:cellForItemAtIndexPath:]:SelectLevelViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Level isCompleted]:Level.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController bannerView:didFailToReceiveAdWithError:]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Laser initWithSpriteLaserType:isVertical:]:Laser.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GameScene loadLevel]:GameScene.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.map.position">
+            </PersistentString>
+            <PersistentString
+               value = "self.map.origin.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Map convertMapCoordinateToWorldCoordinate:]:Map.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tiles.gridSize.height">
+            </PersistentString>
+            <PersistentString
+               value = "self.tileSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LevelSetViewController tableView:cellForRowAtIndexPath:]:LevelSetViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.levelSetNameLabel">
+            </PersistentString>
+            <PersistentString
+               value = "levelSet.name">
+            </PersistentString>
+            <PersistentString
+               value = "[indexPath row]">
+            </PersistentString>
+            <PersistentString
+               value = "cell.levelSetNameLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController bannerViewDidLoadAd:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "banner.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,29 @@
+WWWWWWWWWWWWWWWWWWWW
+W  S          |    W
+W             |  P W
+W             |  P W
+W             |    W
+WWWWWWWWWWWWWWW----W
+W    |             W
+W    |             W
+W  B |      O      W
+W    |             W
+W----WWWWWWWWWWWWWWW
+W                  W
+W          B       W
+W   O            O W
+W                  W
+WWWWWWWWWWWWWWW----W
+W             |    W
+W   P         |    W
+W         P   |    W
+W             |    W
+W----WWWWWWWWWWWWWWW
+W    |        |    W
+W    |       O|    W
+W    |        |    W
+WWWWWWWWWWWWWWW----W
+W                  W
+W                  W
+W  F   O   O       W
+WWWWWWWWWWWWWWWWWWWW

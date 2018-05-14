@@ -1,0 +1,1108 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		338753291C19F07D00EF2769 /* Level99_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 338753281C19F07D00EF2769 /* Level99_1.txt */; };
+		3387532B1C1A0D9A00EF2769 /* Level99_2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3387532A1C1A0D9A00EF2769 /* Level99_2.txt */; };
+		3387532D1C1A0F7900EF2769 /* Level99_3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3387532C1C1A0F7900EF2769 /* Level99_3.txt */; };
+		338D6B341C1B3B77002487F2 /* Level99_4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 338D6B331C1B3B77002487F2 /* Level99_4.txt */; };
+		338D6B361C1B3BAC002487F2 /* Level99_5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 338D6B351C1B3BAC002487F2 /* Level99_5.txt */; };
+		338D6B3C1C1B4304002487F2 /* Level99_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 338D6B371C1B4304002487F2 /* Level99_1@2x.png */; };
+		338D6B3D1C1B4304002487F2 /* Level99_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 338D6B381C1B4304002487F2 /* Level99_2@2x.png */; };
+		338D6B3E1C1B4304002487F2 /* Level99_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 338D6B391C1B4304002487F2 /* Level99_3@2x.png */; };
+		338D6B3F1C1B4304002487F2 /* Level99_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 338D6B3A1C1B4304002487F2 /* Level99_4@2x.png */; };
+		338D6B401C1B4304002487F2 /* Level99_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 338D6B3B1C1B4304002487F2 /* Level99_5@2x.png */; };
+		448D6AFA17B7C98C002FA381 /* tiles.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 448D6AF917B7C98C002FA381 /* tiles.atlas */; };
+		448D6AFC17B7C9A3002FA381 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 448D6AFB17B7C9A3002FA381 /* sprites.atlas */; };
+		449AF6B717B52CAD0004289F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449AF6B617B52CAD0004289F /* Foundation.framework */; };
+		449AF6B917B52CAD0004289F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449AF6B817B52CAD0004289F /* CoreGraphics.framework */; };
+		449AF6BB17B52CAD0004289F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449AF6BA17B52CAD0004289F /* UIKit.framework */; };
+		449AF6BD17B52CAD0004289F /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449AF6BC17B52CAD0004289F /* SpriteKit.framework */; };
+		449AF6C317B52CAD0004289F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 449AF6C117B52CAD0004289F /* InfoPlist.strings */; };
+		449AF6C517B52CAD0004289F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 449AF6C417B52CAD0004289F /* main.m */; };
+		449AF6C917B52CAD0004289F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 449AF6C817B52CAD0004289F /* AppDelegate.m */; };
+		449AF6CC17B52CAD0004289F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449AF6CA17B52CAD0004289F /* Main.storyboard */; };
+		449AF6CF17B52CAD0004289F /* GameSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449AF6CE17B52CAD0004289F /* GameSceneViewController.m */; };
+		449AF6D217B52CAD0004289F /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 449AF6D117B52CAD0004289F /* GameScene.m */; };
+		95BF88381801F9FA00D98EC0 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BF88371801F9FA00D98EC0 /* Map.m */; };
+		95BF883B1802020200D98EC0 /* MapTiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BF883A1802020200D98EC0 /* MapTiles.m */; };
+		F701F5E11915B742007A3D6D /* Level1_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5D81915B742007A3D6D /* Level1_1@2x.png */; };
+		F701F5E21915B742007A3D6D /* Level1_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5D91915B742007A3D6D /* Level1_6@2x.png */; };
+		F701F5E31915B742007A3D6D /* Level1_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5DA1915B742007A3D6D /* Level1_3@2x.png */; };
+		F701F5E41915B742007A3D6D /* Level1_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5DB1915B742007A3D6D /* Level1_4@2x.png */; };
+		F701F5E51915B742007A3D6D /* Level1_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5DC1915B742007A3D6D /* Level1_2@2x.png */; };
+		F701F5E61915B742007A3D6D /* Level1_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5DD1915B742007A3D6D /* Level1_7@2x.png */; };
+		F701F5E71915B742007A3D6D /* Level1_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5DE1915B742007A3D6D /* Level1_8@2x.png */; };
+		F701F5E81915B742007A3D6D /* Level1_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5DF1915B742007A3D6D /* Level1_9@2x.png */; };
+		F701F5E91915B742007A3D6D /* Level1_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5E01915B742007A3D6D /* Level1_10@2x.png */; };
+		F701F5F31915BF2A007A3D6D /* Level2_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5EA1915BF2A007A3D6D /* Level2_1@2x.png */; };
+		F701F5F41915BF2A007A3D6D /* Level2_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5EB1915BF2A007A3D6D /* Level2_2@2x.png */; };
+		F701F5F51915BF2A007A3D6D /* Level2_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5EC1915BF2A007A3D6D /* Level2_3@2x.png */; };
+		F701F5F61915BF2A007A3D6D /* Level2_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5ED1915BF2A007A3D6D /* Level2_4@2x.png */; };
+		F701F5F71915BF2A007A3D6D /* Level2_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5EE1915BF2A007A3D6D /* Level2_5@2x.png */; };
+		F701F5F81915BF2A007A3D6D /* Level2_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5EF1915BF2A007A3D6D /* Level2_6@2x.png */; };
+		F701F5F91915BF2A007A3D6D /* Level2_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5F01915BF2A007A3D6D /* Level2_8@2x.png */; };
+		F701F5FA1915BF2A007A3D6D /* Level2_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5F11915BF2A007A3D6D /* Level2_9@2x.png */; };
+		F701F5FB1915BF2A007A3D6D /* Level2_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5F21915BF2A007A3D6D /* Level2_10@2x.png */; };
+		F701F5FD1915C2DC007A3D6D /* Level2_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F701F5FC1915C2DC007A3D6D /* Level2_7@2x.png */; };
+		F7065E0618DAABDB00718E98 /* CreditScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7065E0518DAABDB00718E98 /* CreditScreenViewController.m */; };
+		F7065E0918DAAC1F00718E98 /* CreditScreenScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F7065E0818DAAC1F00718E98 /* CreditScreenScene.m */; };
+		F708445D18A8247500E9FA27 /* Level1_9.txt in Resources */ = {isa = PBXBuildFile; fileRef = F708445918A8247500E9FA27 /* Level1_9.txt */; };
+		F708445E18A8247500E9FA27 /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F708445C18A8247500E9FA27 /* FileUtil.m */; };
+		F708446018A8332500E9FA27 /* Level3_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F708445F18A8332500E9FA27 /* Level3_1.txt */; };
+		F70B73B918FF6AC500DDB485 /* 012727074-tada-fanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F70B73B818FF6AC500DDB485 /* 012727074-tada-fanfare.mp3 */; };
+		F7126DD918E732630031BA3C /* Level3_6.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7126DD818E732630031BA3C /* Level3_6.txt */; };
+		F7126DDB18E73C8C0031BA3C /* Level3_5.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7126DDA18E73C8C0031BA3C /* Level3_5.txt */; };
+		F7126DDD18E750230031BA3C /* greenCheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7126DDC18E750230031BA3C /* greenCheck@2x.png */; };
+		F7126DE018E7849F0031BA3C /* LevelSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7126DDF18E7849F0031BA3C /* LevelSetViewController.m */; };
+		F7126DE318E784F10031BA3C /* LevelSetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7126DE218E784F10031BA3C /* LevelSetTableViewCell.m */; };
+		F7126DE518E8AF150031BA3C /* Locked_BW@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7126DE418E8AF150031BA3C /* Locked_BW@2x.png */; };
+		F713C98918E11A2A00260816 /* BackBig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F713C98818E11A2A00260816 /* BackBig@2x.png */; };
+		F7142AC518D4021F00BA98D9 /* ball-grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7142AC318D4021F00BA98D9 /* ball-grey@2x.png */; };
+		F7142AC618D4021F00BA98D9 /* Level2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7142AC418D4021F00BA98D9 /* Level2@2x.png */; };
+		F7142AC918D4100C00BA98D9 /* Laser.m in Sources */ = {isa = PBXBuildFile; fileRef = F7142AC818D4100C00BA98D9 /* Laser.m */; };
+		F71D4CFB194BA76C0013E650 /* Level0_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F71D4CF6194BA76C0013E650 /* Level0_1@2x.png */; };
+		F71D4CFC194BA76C0013E650 /* Level0_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F71D4CF7194BA76C0013E650 /* Level0_2@2x.png */; };
+		F71D4CFD194BA76C0013E650 /* Level0_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F71D4CF8194BA76C0013E650 /* Level0_3@2x.png */; };
+		F71D4CFE194BA76C0013E650 /* Level0_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F71D4CF9194BA76C0013E650 /* Level0_4@2x.png */; };
+		F71D4CFF194BA76C0013E650 /* Level0_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F71D4CFA194BA76C0013E650 /* Level0_5@2x.png */; };
+		F728414F18D4BCF200BEFA9C /* 027399135-laser-subtle-pulse-beam-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F728414C18D4BCF200BEFA9C /* 027399135-laser-subtle-pulse-beam-01.mp3 */; };
+		F728415118D4BCF200BEFA9C /* Laser.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F728414E18D4BCF200BEFA9C /* Laser.m4a */; };
+		F728415318D4E46100BEFA9C /* 006142270-electrical-burst-02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F728415218D4E46100BEFA9C /* 006142270-electrical-burst-02.mp3 */; };
+		F72BE91718E8C44C0000B924 /* PlankIPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72BE91618E8C44C0000B924 /* PlankIPad@2x.png */; };
+		F72BE91918E8D7DB0000B924 /* Locked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72BE91818E8D7DB0000B924 /* Locked@2x.png */; };
+		F72FEBBB18D7CECE00653E91 /* Level1_2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F72FEBB818D7CECE00653E91 /* Level1_2.txt */; };
+		F72FEBBC18D7CECE00653E91 /* Level1_7.txt in Resources */ = {isa = PBXBuildFile; fileRef = F72FEBB918D7CECE00653E91 /* Level1_7.txt */; };
+		F72FEBBD18D7CECE00653E91 /* Level1_8.txt in Resources */ = {isa = PBXBuildFile; fileRef = F72FEBBA18D7CECE00653E91 /* Level1_8.txt */; };
+		F72FEBC118D7D01C00653E91 /* Level1_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72FEBBF18D7D01C00653E91 /* Level1_5@2x.png */; };
+		F731F68B1911D8EB00498C78 /* Level2_6.txt in Resources */ = {isa = PBXBuildFile; fileRef = F731F6861911D8EB00498C78 /* Level2_6.txt */; };
+		F731F68C1911D8EB00498C78 /* Level4_2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F731F6871911D8EB00498C78 /* Level4_2.txt */; };
+		F731F68D1911D8EB00498C78 /* Level2_8.txt in Resources */ = {isa = PBXBuildFile; fileRef = F731F6881911D8EB00498C78 /* Level2_8.txt */; };
+		F731F68E1911D8EB00498C78 /* Level2_9.txt in Resources */ = {isa = PBXBuildFile; fileRef = F731F6891911D8EB00498C78 /* Level2_9.txt */; };
+		F731F68F1911D8EB00498C78 /* Level2_10.txt in Resources */ = {isa = PBXBuildFile; fileRef = F731F68A1911D8EB00498C78 /* Level2_10.txt */; };
+		F73CE96C190AF68600ECFB00 /* Level4_3.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE964190AF68600ECFB00 /* Level4_3.txt */; };
+		F73CE96D190AF68600ECFB00 /* Level4_4.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE965190AF68600ECFB00 /* Level4_4.txt */; };
+		F73CE96E190AF68600ECFB00 /* Level4_5.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE966190AF68600ECFB00 /* Level4_5.txt */; };
+		F73CE96F190AF68600ECFB00 /* Level4_6.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE967190AF68600ECFB00 /* Level4_6.txt */; };
+		F73CE970190AF68600ECFB00 /* Level4_7.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE968190AF68600ECFB00 /* Level4_7.txt */; };
+		F73CE971190AF68600ECFB00 /* Level3_8.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE969190AF68600ECFB00 /* Level3_8.txt */; };
+		F73CE972190AF68600ECFB00 /* Level3_9.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE96A190AF68600ECFB00 /* Level3_9.txt */; };
+		F73CE974190AFBCE00ECFB00 /* Level3_10.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE973190AFBCE00ECFB00 /* Level3_10.txt */; };
+		F73CE97B190B002000ECFB00 /* Level3_3.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE975190B002000ECFB00 /* Level3_3.txt */; };
+		F73CE97C190B002000ECFB00 /* Level2_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE976190B002000ECFB00 /* Level2_1.txt */; };
+		F73CE97D190B002000ECFB00 /* Level2_2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE977190B002000ECFB00 /* Level2_2.txt */; };
+		F73CE97E190B002000ECFB00 /* Level2_3.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE978190B002000ECFB00 /* Level2_3.txt */; };
+		F73CE97F190B002000ECFB00 /* Level2_4.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE979190B002000ECFB00 /* Level2_4.txt */; };
+		F73CE980190B002000ECFB00 /* Level2_5.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE97A190B002000ECFB00 /* Level2_5.txt */; };
+		F73CE983190B075300ECFB00 /* Level3_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F73CE981190B075300ECFB00 /* Level3_9@2x.png */; };
+		F73CE984190B075300ECFB00 /* Level3_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F73CE982190B075300ECFB00 /* Level3_10@2x.png */; };
+		F73CE98A190C09E800ECFB00 /* Level1_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE985190C09E800ECFB00 /* Level1_1.txt */; };
+		F73CE98B190C09E800ECFB00 /* Level1_6.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE986190C09E800ECFB00 /* Level1_6.txt */; };
+		F73CE98C190C09E800ECFB00 /* Level1_3.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE987190C09E800ECFB00 /* Level1_3.txt */; };
+		F73CE98D190C09E800ECFB00 /* Level1_4.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE988190C09E800ECFB00 /* Level1_4.txt */; };
+		F73CE98E190C09E800ECFB00 /* Level3_4.txt in Resources */ = {isa = PBXBuildFile; fileRef = F73CE989190C09E800ECFB00 /* Level3_4.txt */; };
+		F7663DB818A9B44F005463EE /* Marble Game.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F7663DB718A9B44F005463EE /* Marble Game.m4a */; };
+		F7663DBC18A9B5C5005463EE /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7663DBB18A9B5C5005463EE /* iAd.framework */; };
+		F770659E18CAFB920034C5EA /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = F770659D18CAFB920034C5EA /* Level.m */; };
+		F7769791186FEA6000F68126 /* 028535488-steel-ball-roll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F776978F186FEA5F00F68126 /* 028535488-steel-ball-roll.mp3 */; };
+		F7769792186FEA6000F68126 /* 033689323-billiards-ball-falling-pocket-.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7769790186FEA5F00F68126 /* 033689323-billiards-ball-falling-pocket-.mp3 */; };
+		F7769794186FFD7000F68126 /* ball_roll.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F7769793186FFD7000F68126 /* ball_roll.m4a */; };
+		F77697961870002200F68126 /* ball_hole.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F77697951870002200F68126 /* ball_hole.m4a */; };
+		F798149C193D4D95005F725C /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F798149B193D4D95005F725C /* GameKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		F7A6295018D122B700EF560D /* MainScreenScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A6294F18D122B700EF560D /* MainScreenScene.m */; };
+		F7A6295318D1292A00EF560D /* ScaleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A6295218D1292A00EF560D /* ScaleUtil.m */; };
+		F7AAC12F18E062CB003FE05B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AAC12E18E062CB003FE05B /* Images.xcassets */; };
+		F7AECFB9186FD74000643B5C /* Hole.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AECFB7186FD74000643B5C /* Hole.m */; };
+		F7AECFC8186FDD5900643B5C /* fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7AECFC7186FDD5900643B5C /* fail.mp3 */; };
+		F7B40161192F8FF500F1752E /* Level3_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B4015D192F8FF500F1752E /* Level3_2@2x.png */; };
+		F7B40162192F8FF500F1752E /* Level3_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B4015E192F8FF500F1752E /* Level3_3@2x.png */; };
+		F7B40163192F8FF500F1752E /* Level3_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B4015F192F8FF500F1752E /* Level3_4@2x.png */; };
+		F7B40164192F8FF500F1752E /* Level3_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B40160192F8FF500F1752E /* Level3_6@2x.png */; };
+		F7B4016B192F936700F1752E /* Level3_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B40165192F936700F1752E /* Level3_8@2x.png */; };
+		F7B4016C192F936700F1752E /* Level4_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B40166192F936700F1752E /* Level4_1@2x.png */; };
+		F7B4016D192F936700F1752E /* Level4_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B40167192F936700F1752E /* Level4_2@2x.png */; };
+		F7B4016E192F936700F1752E /* Level4_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B40168192F936700F1752E /* Level4_3@2x.png */; };
+		F7B4016F192F936700F1752E /* Level4_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B40169192F936700F1752E /* Level4_4@2x.png */; };
+		F7B40170192F936700F1752E /* Level4_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B4016A192F936700F1752E /* Level4_6@2x.png */; };
+		F7B40172192FA58100F1752E /* Level4_8.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7B40171192FA58100F1752E /* Level4_8.txt */; };
+		F7B40176192FAD7300F1752E /* Level3_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B40173192FAD7300F1752E /* Level3_1@2x.png */; };
+		F7B40177192FAD7300F1752E /* Level3_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B40174192FAD7300F1752E /* Level3_5@2x.png */; };
+		F7B40178192FAD7300F1752E /* Level4_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B40175192FAD7300F1752E /* Level4_8@2x.png */; };
+		F7B4017A192FB54200F1752E /* Level4_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B40179192FB54200F1752E /* Level4_5@2x.png */; };
+		F7B4017C192FB75500F1752E /* Level4_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B4017B192FB75500F1752E /* Level4_7@2x.png */; };
+		F7B4017F192FBEFA00F1752E /* Level3_7.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7B4017D192FBEFA00F1752E /* Level3_7.txt */; };
+		F7B40180192FBEFA00F1752E /* Level4_9.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7B4017E192FBEFA00F1752E /* Level4_9.txt */; };
+		F7B40182192FC13600F1752E /* Level3_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B40181192FC13600F1752E /* Level3_7@2x.png */; };
+		F7B40184192FC8C600F1752E /* Level4_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B40183192FC8C600F1752E /* Level4_9@2x.png */; };
+		F7B40186192FC8DA00F1752E /* Level4_10.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7B40185192FC8DA00F1752E /* Level4_10.txt */; };
+		F7B40188192FCD7F00F1752E /* Level4_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B40187192FCD7F00F1752E /* Level4_10@2x.png */; };
+		F7B4018A1930FE5100F1752E /* WoodBlankBordered@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B401891930FE5100F1752E /* WoodBlankBordered@2x.png */; };
+		F7B4018C193103C400F1752E /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B4018B193103C400F1752E /* Button.png */; };
+		F7B4018F1931045700F1752E /* LevelPackCompletedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B4018E1931045700F1752E /* LevelPackCompletedViewController.m */; };
+		F7B48E7218BADA5D005BF896 /* BlackHole.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B48E7118BADA5D005BF896 /* BlackHole.m */; };
+		F7B7578E18B5A91D00C8F999 /* Level1_5.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7B7578D18B5A91D00C8F999 /* Level1_5.txt */; };
+		F7B7579118B968FC00C8F999 /* PinballBumper.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B7579018B968FC00C8F999 /* PinballBumper.m */; };
+		F7C1190118621C3600582DB4 /* Maze Muncher In-Game.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F7C1190018621C3600582DB4 /* Maze Muncher In-Game.m4a */; };
+		F7C34E86190C701F005EB656 /* SharedAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C34E85190C701F005EB656 /* SharedAction.m */; };
+		F7CADA0A1864A84600F37124 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CADA091864A84600F37124 /* CoreMotion.framework */; };
+		F7CE94CA19089B61003A7FDB /* Level4_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7CE94C819089B61003A7FDB /* Level4_1.txt */; };
+		F7CE94CB19089B61003A7FDB /* Level2_7.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7CE94C919089B61003A7FDB /* Level2_7.txt */; };
+		F7D14FE918CAD81200184F69 /* MainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D14FE818CAD81200184F69 /* MainScreenViewController.m */; };
+		F7D42B7B18FF75A8000B0852 /* 032143410-next-wooden-select-sfx.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7D42B7A18FF75A8000B0852 /* 032143410-next-wooden-select-sfx.mp3 */; };
+		F7D42B9A190066A3000B0852 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D42B99190066A3000B0852 /* Button.m */; };
+		F7D42B9C1900A86D000B0852 /* 020073177-switch-button-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7D42B9B1900A86D000B0852 /* 020073177-switch-button-1.mp3 */; };
+		F7D42B9E1900C5A3000B0852 /* 008619895-wood-plank-movement-02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7D42B9D1900C5A3000B0852 /* 008619895-wood-plank-movement-02.mp3 */; };
+		F7D5CFE718DBE81000CA6EE6 /* LevelSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D5CFE618DBE81000CA6EE6 /* LevelSet.m */; };
+		F7D6565D18CADAF900359F25 /* SelectLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D6565C18CADAF900359F25 /* SelectLevelViewController.m */; };
+		F7D6566118CAE0A900359F25 /* LevelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D6566018CAE0A800359F25 /* LevelCell.m */; };
+		F7D6566418CAE34700359F25 /* StyleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D6566318CAE34700359F25 /* StyleUtil.m */; };
+		F7D6566718CAF57C00359F25 /* LevelMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D6566618CAF57C00359F25 /* LevelMgr.m */; };
+		F7DF29B918C8308C00803E8B /* 008900349-vortex.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7DF29B818C8308C00803E8B /* 008900349-vortex.mp3 */; };
+		F7E7444518729856009AD72A /* bounce.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F7E7444418729856009AD72A /* bounce.m4a */; };
+		F7E744471872A11B009AD72A /* ball_roll2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F7E744461872A11B009AD72A /* ball_roll2.m4a */; };
+		F7EB82E81901D68E0028F90D /* Level1_10.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7EB82E61901D68E0028F90D /* Level1_10.txt */; };
+		F7EB82E91901D68E0028F90D /* Level3_2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7EB82E71901D68E0028F90D /* Level3_2.txt */; };
+		F7EC999F18BA929D0032B614 /* PinballBumper.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F7EC999E18BA929D0032B614 /* PinballBumper.m4a */; };
+		F7EF37E919416297008AB3ED /* Level0_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7EF37E819416297008AB3ED /* Level0_1.txt */; };
+		F7EF37EE19436225008AB3ED /* Level0_2.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7EF37EA19436225008AB3ED /* Level0_2.txt */; };
+		F7EF37EF19436225008AB3ED /* Level0_3.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7EF37EB19436225008AB3ED /* Level0_3.txt */; };
+		F7EF37F019436225008AB3ED /* Level0_4.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7EF37EC19436225008AB3ED /* Level0_4.txt */; };
+		F7EF37F119436225008AB3ED /* Level0_5.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7EF37ED19436225008AB3ED /* Level0_5.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		338753281C19F07D00EF2769 /* Level99_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level99_1.txt; sourceTree = "<group>"; };
+		3387532A1C1A0D9A00EF2769 /* Level99_2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level99_2.txt; sourceTree = "<group>"; };
+		3387532C1C1A0F7900EF2769 /* Level99_3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level99_3.txt; sourceTree = "<group>"; };
+		338D6B331C1B3B77002487F2 /* Level99_4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level99_4.txt; sourceTree = "<group>"; };
+		338D6B351C1B3BAC002487F2 /* Level99_5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level99_5.txt; sourceTree = "<group>"; };
+		338D6B371C1B4304002487F2 /* Level99_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level99_1@2x.png"; sourceTree = "<group>"; };
+		338D6B381C1B4304002487F2 /* Level99_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level99_2@2x.png"; sourceTree = "<group>"; };
+		338D6B391C1B4304002487F2 /* Level99_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level99_3@2x.png"; sourceTree = "<group>"; };
+		338D6B3A1C1B4304002487F2 /* Level99_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level99_4@2x.png"; sourceTree = "<group>"; };
+		338D6B3B1C1B4304002487F2 /* Level99_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level99_5@2x.png"; sourceTree = "<group>"; };
+		448D6AF917B7C98C002FA381 /* tiles.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = tiles.atlas; sourceTree = "<group>"; };
+		448D6AFB17B7C9A3002FA381 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		449AF6B317B52CAD0004289F /* Labyrinth Tilt Maze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Labyrinth Tilt Maze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		449AF6B617B52CAD0004289F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		449AF6B817B52CAD0004289F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		449AF6BA17B52CAD0004289F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		449AF6BC17B52CAD0004289F /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		449AF6C017B52CAD0004289F /* LabyrinthTiltMaze-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LabyrinthTiltMaze-Info.plist"; sourceTree = "<group>"; };
+		449AF6C217B52CAD0004289F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		449AF6C417B52CAD0004289F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		449AF6C617B52CAD0004289F /* LabyrinthTiltMaze-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LabyrinthTiltMaze-Prefix.pch"; sourceTree = "<group>"; };
+		449AF6C717B52CAD0004289F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		449AF6C817B52CAD0004289F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		449AF6CB17B52CAD0004289F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		449AF6CD17B52CAD0004289F /* GameSceneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameSceneViewController.h; sourceTree = "<group>"; };
+		449AF6CE17B52CAD0004289F /* GameSceneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameSceneViewController.m; sourceTree = "<group>"; };
+		449AF6D017B52CAD0004289F /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		449AF6D117B52CAD0004289F /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		449AF6DC17B52CAD0004289F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		95BF88361801F9FA00D98EC0 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		95BF88371801F9FA00D98EC0 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		95BF88391802020200D98EC0 /* MapTiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTiles.h; sourceTree = "<group>"; };
+		95BF883A1802020200D98EC0 /* MapTiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTiles.m; sourceTree = "<group>"; };
+		F701F5D81915B742007A3D6D /* Level1_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level1_1@2x.png"; sourceTree = "<group>"; };
+		F701F5D91915B742007A3D6D /* Level1_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level1_6@2x.png"; sourceTree = "<group>"; };
+		F701F5DA1915B742007A3D6D /* Level1_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level1_3@2x.png"; sourceTree = "<group>"; };
+		F701F5DB1915B742007A3D6D /* Level1_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level1_4@2x.png"; sourceTree = "<group>"; };
+		F701F5DC1915B742007A3D6D /* Level1_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level1_2@2x.png"; sourceTree = "<group>"; };
+		F701F5DD1915B742007A3D6D /* Level1_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level1_7@2x.png"; sourceTree = "<group>"; };
+		F701F5DE1915B742007A3D6D /* Level1_8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level1_8@2x.png"; sourceTree = "<group>"; };
+		F701F5DF1915B742007A3D6D /* Level1_9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level1_9@2x.png"; sourceTree = "<group>"; };
+		F701F5E01915B742007A3D6D /* Level1_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level1_10@2x.png"; sourceTree = "<group>"; };
+		F701F5EA1915BF2A007A3D6D /* Level2_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level2_1@2x.png"; sourceTree = "<group>"; };
+		F701F5EB1915BF2A007A3D6D /* Level2_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level2_2@2x.png"; sourceTree = "<group>"; };
+		F701F5EC1915BF2A007A3D6D /* Level2_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level2_3@2x.png"; sourceTree = "<group>"; };
+		F701F5ED1915BF2A007A3D6D /* Level2_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level2_4@2x.png"; sourceTree = "<group>"; };
+		F701F5EE1915BF2A007A3D6D /* Level2_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level2_5@2x.png"; sourceTree = "<group>"; };
+		F701F5EF1915BF2A007A3D6D /* Level2_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level2_6@2x.png"; sourceTree = "<group>"; };
+		F701F5F01915BF2A007A3D6D /* Level2_8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level2_8@2x.png"; sourceTree = "<group>"; };
+		F701F5F11915BF2A007A3D6D /* Level2_9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level2_9@2x.png"; sourceTree = "<group>"; };
+		F701F5F21915BF2A007A3D6D /* Level2_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level2_10@2x.png"; sourceTree = "<group>"; };
+		F701F5FC1915C2DC007A3D6D /* Level2_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level2_7@2x.png"; sourceTree = "<group>"; };
+		F7065E0418DAABDB00718E98 /* CreditScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditScreenViewController.h; sourceTree = "<group>"; };
+		F7065E0518DAABDB00718E98 /* CreditScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditScreenViewController.m; sourceTree = "<group>"; };
+		F7065E0718DAAC1F00718E98 /* CreditScreenScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditScreenScene.h; sourceTree = "<group>"; };
+		F7065E0818DAAC1F00718E98 /* CreditScreenScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditScreenScene.m; sourceTree = "<group>"; };
+		F708445918A8247500E9FA27 /* Level1_9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level1_9.txt; sourceTree = "<group>"; };
+		F708445B18A8247500E9FA27 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
+		F708445C18A8247500E9FA27 /* FileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtil.m; sourceTree = "<group>"; };
+		F708445F18A8332500E9FA27 /* Level3_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level3_1.txt; sourceTree = "<group>"; };
+		F70B73B818FF6AC500DDB485 /* 012727074-tada-fanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "012727074-tada-fanfare.mp3"; path = "sound/012727074-tada-fanfare.mp3"; sourceTree = "<group>"; };
+		F7126DD818E732630031BA3C /* Level3_6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level3_6.txt; sourceTree = "<group>"; };
+		F7126DDA18E73C8C0031BA3C /* Level3_5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level3_5.txt; sourceTree = "<group>"; };
+		F7126DDC18E750230031BA3C /* greenCheck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenCheck@2x.png"; sourceTree = "<group>"; };
+		F7126DDE18E7849F0031BA3C /* LevelSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSetViewController.h; sourceTree = "<group>"; };
+		F7126DDF18E7849F0031BA3C /* LevelSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSetViewController.m; sourceTree = "<group>"; };
+		F7126DE118E784F10031BA3C /* LevelSetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSetTableViewCell.h; sourceTree = "<group>"; };
+		F7126DE218E784F10031BA3C /* LevelSetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSetTableViewCell.m; sourceTree = "<group>"; };
+		F7126DE418E8AF150031BA3C /* Locked_BW@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Locked_BW@2x.png"; sourceTree = "<group>"; };
+		F713C98818E11A2A00260816 /* BackBig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackBig@2x.png"; sourceTree = "<group>"; };
+		F7142AC318D4021F00BA98D9 /* ball-grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball-grey@2x.png"; sourceTree = "<group>"; };
+		F7142AC418D4021F00BA98D9 /* Level2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level2@2x.png"; sourceTree = "<group>"; };
+		F7142AC718D4100C00BA98D9 /* Laser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Laser.h; sourceTree = "<group>"; };
+		F7142AC818D4100C00BA98D9 /* Laser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Laser.m; sourceTree = "<group>"; };
+		F71D4CF6194BA76C0013E650 /* Level0_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level0_1@2x.png"; sourceTree = "<group>"; };
+		F71D4CF7194BA76C0013E650 /* Level0_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level0_2@2x.png"; sourceTree = "<group>"; };
+		F71D4CF8194BA76C0013E650 /* Level0_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level0_3@2x.png"; sourceTree = "<group>"; };
+		F71D4CF9194BA76C0013E650 /* Level0_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level0_4@2x.png"; sourceTree = "<group>"; };
+		F71D4CFA194BA76C0013E650 /* Level0_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level0_5@2x.png"; sourceTree = "<group>"; };
+		F728414C18D4BCF200BEFA9C /* 027399135-laser-subtle-pulse-beam-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "027399135-laser-subtle-pulse-beam-01.mp3"; path = "sound/027399135-laser-subtle-pulse-beam-01.mp3"; sourceTree = "<group>"; };
+		F728414E18D4BCF200BEFA9C /* Laser.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Laser.m4a; path = sound/Laser.m4a; sourceTree = "<group>"; };
+		F728415218D4E46100BEFA9C /* 006142270-electrical-burst-02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "006142270-electrical-burst-02.mp3"; path = "sound/006142270-electrical-burst-02.mp3"; sourceTree = "<group>"; };
+		F72BE91618E8C44C0000B924 /* PlankIPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlankIPad@2x.png"; sourceTree = "<group>"; };
+		F72BE91818E8D7DB0000B924 /* Locked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Locked@2x.png"; sourceTree = "<group>"; };
+		F72FEBB818D7CECE00653E91 /* Level1_2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level1_2.txt; sourceTree = "<group>"; };
+		F72FEBB918D7CECE00653E91 /* Level1_7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level1_7.txt; sourceTree = "<group>"; };
+		F72FEBBA18D7CECE00653E91 /* Level1_8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level1_8.txt; sourceTree = "<group>"; };
+		F72FEBBF18D7D01C00653E91 /* Level1_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level1_5@2x.png"; sourceTree = "<group>"; };
+		F731F6861911D8EB00498C78 /* Level2_6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level2_6.txt; sourceTree = "<group>"; };
+		F731F6871911D8EB00498C78 /* Level4_2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level4_2.txt; sourceTree = "<group>"; };
+		F731F6881911D8EB00498C78 /* Level2_8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level2_8.txt; sourceTree = "<group>"; };
+		F731F6891911D8EB00498C78 /* Level2_9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level2_9.txt; sourceTree = "<group>"; };
+		F731F68A1911D8EB00498C78 /* Level2_10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level2_10.txt; sourceTree = "<group>"; };
+		F73CE964190AF68600ECFB00 /* Level4_3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level4_3.txt; sourceTree = "<group>"; };
+		F73CE965190AF68600ECFB00 /* Level4_4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level4_4.txt; sourceTree = "<group>"; };
+		F73CE966190AF68600ECFB00 /* Level4_5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level4_5.txt; sourceTree = "<group>"; };
+		F73CE967190AF68600ECFB00 /* Level4_6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level4_6.txt; sourceTree = "<group>"; };
+		F73CE968190AF68600ECFB00 /* Level4_7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level4_7.txt; sourceTree = "<group>"; };
+		F73CE969190AF68600ECFB00 /* Level3_8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level3_8.txt; sourceTree = "<group>"; };
+		F73CE96A190AF68600ECFB00 /* Level3_9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level3_9.txt; sourceTree = "<group>"; };
+		F73CE973190AFBCE00ECFB00 /* Level3_10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level3_10.txt; sourceTree = "<group>"; };
+		F73CE975190B002000ECFB00 /* Level3_3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level3_3.txt; sourceTree = "<group>"; };
+		F73CE976190B002000ECFB00 /* Level2_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level2_1.txt; sourceTree = "<group>"; };
+		F73CE977190B002000ECFB00 /* Level2_2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level2_2.txt; sourceTree = "<group>"; };
+		F73CE978190B002000ECFB00 /* Level2_3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level2_3.txt; sourceTree = "<group>"; };
+		F73CE979190B002000ECFB00 /* Level2_4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level2_4.txt; sourceTree = "<group>"; };
+		F73CE97A190B002000ECFB00 /* Level2_5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level2_5.txt; sourceTree = "<group>"; };
+		F73CE981190B075300ECFB00 /* Level3_9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level3_9@2x.png"; sourceTree = "<group>"; };
+		F73CE982190B075300ECFB00 /* Level3_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level3_10@2x.png"; sourceTree = "<group>"; };
+		F73CE985190C09E800ECFB00 /* Level1_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level1_1.txt; sourceTree = "<group>"; };
+		F73CE986190C09E800ECFB00 /* Level1_6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level1_6.txt; sourceTree = "<group>"; };
+		F73CE987190C09E800ECFB00 /* Level1_3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level1_3.txt; sourceTree = "<group>"; };
+		F73CE988190C09E800ECFB00 /* Level1_4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level1_4.txt; sourceTree = "<group>"; };
+		F73CE989190C09E800ECFB00 /* Level3_4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level3_4.txt; sourceTree = "<group>"; };
+		F7663DB718A9B44F005463EE /* Marble Game.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Marble Game.m4a"; path = "sound/Marble Game.m4a"; sourceTree = "<group>"; };
+		F7663DBB18A9B5C5005463EE /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		F770659C18CAFB920034C5EA /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		F770659D18CAFB920034C5EA /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		F776978F186FEA5F00F68126 /* 028535488-steel-ball-roll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "028535488-steel-ball-roll.mp3"; path = "sound/028535488-steel-ball-roll.mp3"; sourceTree = "<group>"; };
+		F7769790186FEA5F00F68126 /* 033689323-billiards-ball-falling-pocket-.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "033689323-billiards-ball-falling-pocket-.mp3"; path = "sound/033689323-billiards-ball-falling-pocket-.mp3"; sourceTree = "<group>"; };
+		F7769793186FFD7000F68126 /* ball_roll.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = ball_roll.m4a; path = sound/ball_roll.m4a; sourceTree = "<group>"; };
+		F77697951870002200F68126 /* ball_hole.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = ball_hole.m4a; path = sound/ball_hole.m4a; sourceTree = "<group>"; };
+		F798149B193D4D95005F725C /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		F7A6294E18D122B700EF560D /* MainScreenScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenScene.h; sourceTree = "<group>"; };
+		F7A6294F18D122B700EF560D /* MainScreenScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenScene.m; sourceTree = "<group>"; };
+		F7A6295118D1292A00EF560D /* ScaleUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleUtil.h; sourceTree = "<group>"; };
+		F7A6295218D1292A00EF560D /* ScaleUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleUtil.m; sourceTree = "<group>"; };
+		F7AAC12E18E062CB003FE05B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7AECFB6186FD74000643B5C /* Hole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hole.h; sourceTree = "<group>"; };
+		F7AECFB7186FD74000643B5C /* Hole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hole.m; sourceTree = "<group>"; };
+		F7AECFB8186FD74000643B5C /* SpriteCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteCategories.h; sourceTree = "<group>"; };
+		F7AECFC7186FDD5900643B5C /* fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = fail.mp3; path = sound/fail.mp3; sourceTree = "<group>"; };
+		F7B4015D192F8FF500F1752E /* Level3_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level3_2@2x.png"; sourceTree = "<group>"; };
+		F7B4015E192F8FF500F1752E /* Level3_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level3_3@2x.png"; sourceTree = "<group>"; };
+		F7B4015F192F8FF500F1752E /* Level3_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level3_4@2x.png"; sourceTree = "<group>"; };
+		F7B40160192F8FF500F1752E /* Level3_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level3_6@2x.png"; sourceTree = "<group>"; };
+		F7B40165192F936700F1752E /* Level3_8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level3_8@2x.png"; sourceTree = "<group>"; };
+		F7B40166192F936700F1752E /* Level4_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level4_1@2x.png"; sourceTree = "<group>"; };
+		F7B40167192F936700F1752E /* Level4_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level4_2@2x.png"; sourceTree = "<group>"; };
+		F7B40168192F936700F1752E /* Level4_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level4_3@2x.png"; sourceTree = "<group>"; };
+		F7B40169192F936700F1752E /* Level4_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level4_4@2x.png"; sourceTree = "<group>"; };
+		F7B4016A192F936700F1752E /* Level4_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level4_6@2x.png"; sourceTree = "<group>"; };
+		F7B40171192FA58100F1752E /* Level4_8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level4_8.txt; sourceTree = "<group>"; };
+		F7B40173192FAD7300F1752E /* Level3_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level3_1@2x.png"; sourceTree = "<group>"; };
+		F7B40174192FAD7300F1752E /* Level3_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level3_5@2x.png"; sourceTree = "<group>"; };
+		F7B40175192FAD7300F1752E /* Level4_8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level4_8@2x.png"; sourceTree = "<group>"; };
+		F7B40179192FB54200F1752E /* Level4_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level4_5@2x.png"; sourceTree = "<group>"; };
+		F7B4017B192FB75500F1752E /* Level4_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level4_7@2x.png"; sourceTree = "<group>"; };
+		F7B4017D192FBEFA00F1752E /* Level3_7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level3_7.txt; sourceTree = "<group>"; };
+		F7B4017E192FBEFA00F1752E /* Level4_9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level4_9.txt; sourceTree = "<group>"; };
+		F7B40181192FC13600F1752E /* Level3_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level3_7@2x.png"; sourceTree = "<group>"; };
+		F7B40183192FC8C600F1752E /* Level4_9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level4_9@2x.png"; sourceTree = "<group>"; };
+		F7B40185192FC8DA00F1752E /* Level4_10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level4_10.txt; sourceTree = "<group>"; };
+		F7B40187192FCD7F00F1752E /* Level4_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Level4_10@2x.png"; sourceTree = "<group>"; };
+		F7B401891930FE5100F1752E /* WoodBlankBordered@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WoodBlankBordered@2x.png"; sourceTree = "<group>"; };
+		F7B4018B193103C400F1752E /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		F7B4018D1931045700F1752E /* LevelPackCompletedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelPackCompletedViewController.h; sourceTree = "<group>"; };
+		F7B4018E1931045700F1752E /* LevelPackCompletedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelPackCompletedViewController.m; sourceTree = "<group>"; };
+		F7B48E7018BADA5D005BF896 /* BlackHole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackHole.h; sourceTree = "<group>"; };
+		F7B48E7118BADA5D005BF896 /* BlackHole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackHole.m; sourceTree = "<group>"; };
+		F7B7578D18B5A91D00C8F999 /* Level1_5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level1_5.txt; sourceTree = "<group>"; };
+		F7B7578F18B968FC00C8F999 /* PinballBumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinballBumper.h; sourceTree = "<group>"; };
+		F7B7579018B968FC00C8F999 /* PinballBumper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinballBumper.m; sourceTree = "<group>"; };
+		F7C1190018621C3600582DB4 /* Maze Muncher In-Game.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Maze Muncher In-Game.m4a"; path = "sound/Maze Muncher In-Game.m4a"; sourceTree = "<group>"; };
+		F7C34E84190C701F005EB656 /* SharedAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedAction.h; sourceTree = "<group>"; };
+		F7C34E85190C701F005EB656 /* SharedAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedAction.m; sourceTree = "<group>"; };
+		F7CADA091864A84600F37124 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F7CE94C819089B61003A7FDB /* Level4_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level4_1.txt; sourceTree = "<group>"; };
+		F7CE94C919089B61003A7FDB /* Level2_7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level2_7.txt; sourceTree = "<group>"; };
+		F7D14FE718CAD81200184F69 /* MainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenViewController.h; sourceTree = "<group>"; };
+		F7D14FE818CAD81200184F69 /* MainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenViewController.m; sourceTree = "<group>"; };
+		F7D42B7A18FF75A8000B0852 /* 032143410-next-wooden-select-sfx.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "032143410-next-wooden-select-sfx.mp3"; path = "sound/032143410-next-wooden-select-sfx.mp3"; sourceTree = "<group>"; };
+		F7D42B98190066A3000B0852 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		F7D42B99190066A3000B0852 /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		F7D42B9B1900A86D000B0852 /* 020073177-switch-button-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "020073177-switch-button-1.mp3"; path = "sound/020073177-switch-button-1.mp3"; sourceTree = "<group>"; };
+		F7D42B9D1900C5A3000B0852 /* 008619895-wood-plank-movement-02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "008619895-wood-plank-movement-02.mp3"; path = "sound/008619895-wood-plank-movement-02.mp3"; sourceTree = "<group>"; };
+		F7D5CFE518DBE81000CA6EE6 /* LevelSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSet.h; sourceTree = "<group>"; };
+		F7D5CFE618DBE81000CA6EE6 /* LevelSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSet.m; sourceTree = "<group>"; };
+		F7D6565B18CADAF900359F25 /* SelectLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLevelViewController.h; sourceTree = "<group>"; };
+		F7D6565C18CADAF900359F25 /* SelectLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLevelViewController.m; sourceTree = "<group>"; };
+		F7D6565F18CAE0A800359F25 /* LevelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelCell.h; sourceTree = "<group>"; };
+		F7D6566018CAE0A800359F25 /* LevelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelCell.m; sourceTree = "<group>"; };
+		F7D6566218CAE34700359F25 /* StyleUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleUtil.h; sourceTree = "<group>"; };
+		F7D6566318CAE34700359F25 /* StyleUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleUtil.m; sourceTree = "<group>"; };
+		F7D6566518CAF57C00359F25 /* LevelMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelMgr.h; sourceTree = "<group>"; };
+		F7D6566618CAF57C00359F25 /* LevelMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelMgr.m; sourceTree = "<group>"; };
+		F7DF29B818C8308C00803E8B /* 008900349-vortex.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "008900349-vortex.mp3"; path = "sound/008900349-vortex.mp3"; sourceTree = "<group>"; };
+		F7E7444418729856009AD72A /* bounce.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = bounce.m4a; path = sound/bounce.m4a; sourceTree = "<group>"; };
+		F7E744461872A11B009AD72A /* ball_roll2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = ball_roll2.m4a; path = sound/ball_roll2.m4a; sourceTree = "<group>"; };
+		F7EB82E61901D68E0028F90D /* Level1_10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level1_10.txt; sourceTree = "<group>"; };
+		F7EB82E71901D68E0028F90D /* Level3_2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level3_2.txt; sourceTree = "<group>"; };
+		F7EC999E18BA929D0032B614 /* PinballBumper.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = PinballBumper.m4a; path = sound/PinballBumper.m4a; sourceTree = "<group>"; };
+		F7EF37E819416297008AB3ED /* Level0_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level0_1.txt; sourceTree = "<group>"; };
+		F7EF37EA19436225008AB3ED /* Level0_2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level0_2.txt; sourceTree = "<group>"; };
+		F7EF37EB19436225008AB3ED /* Level0_3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level0_3.txt; sourceTree = "<group>"; };
+		F7EF37EC19436225008AB3ED /* Level0_4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level0_4.txt; sourceTree = "<group>"; };
+		F7EF37ED19436225008AB3ED /* Level0_5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level0_5.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		449AF6B017B52CAD0004289F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7663DBC18A9B5C5005463EE /* iAd.framework in Frameworks */,
+				F7CADA0A1864A84600F37124 /* CoreMotion.framework in Frameworks */,
+				F798149C193D4D95005F725C /* GameKit.framework in Frameworks */,
+				449AF6B917B52CAD0004289F /* CoreGraphics.framework in Frameworks */,
+				449AF6BB17B52CAD0004289F /* UIKit.framework in Frameworks */,
+				449AF6BD17B52CAD0004289F /* SpriteKit.framework in Frameworks */,
+				449AF6B717B52CAD0004289F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4414DA7517BD27D400E3CE36 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				F7D42B9D1900C5A3000B0852 /* 008619895-wood-plank-movement-02.mp3 */,
+				F728415218D4E46100BEFA9C /* 006142270-electrical-burst-02.mp3 */,
+				F7DF29B818C8308C00803E8B /* 008900349-vortex.mp3 */,
+				F70B73B818FF6AC500DDB485 /* 012727074-tada-fanfare.mp3 */,
+				F7D42B9B1900A86D000B0852 /* 020073177-switch-button-1.mp3 */,
+				F728414C18D4BCF200BEFA9C /* 027399135-laser-subtle-pulse-beam-01.mp3 */,
+				F776978F186FEA5F00F68126 /* 028535488-steel-ball-roll.mp3 */,
+				F7D42B7A18FF75A8000B0852 /* 032143410-next-wooden-select-sfx.mp3 */,
+				F7769790186FEA5F00F68126 /* 033689323-billiards-ball-falling-pocket-.mp3 */,
+				F77697951870002200F68126 /* ball_hole.m4a */,
+				F7769793186FFD7000F68126 /* ball_roll.m4a */,
+				F7E744461872A11B009AD72A /* ball_roll2.m4a */,
+				F7E7444418729856009AD72A /* bounce.m4a */,
+				F7AECFC7186FDD5900643B5C /* fail.mp3 */,
+				F728414E18D4BCF200BEFA9C /* Laser.m4a */,
+				F7663DB718A9B44F005463EE /* Marble Game.m4a */,
+				F7C1190018621C3600582DB4 /* Maze Muncher In-Game.m4a */,
+				F7EC999E18BA929D0032B614 /* PinballBumper.m4a */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+		449AF6AA17B52CAD0004289F = {
+			isa = PBXGroup;
+			children = (
+				F7142AC218D4015600BA98D9 /* menuimages */,
+				F7A6294D18D1227800EF560D /* Scenes */,
+				F7D6565E18CAE05000359F25 /* Classes */,
+				F7D14FE618CAD7F700184F69 /* Controllers */,
+				F708445818A8247500E9FA27 /* Levels */,
+				F708445A18A8247500E9FA27 /* FileManager */,
+				449AF6BE17B52CAD0004289F /* TiltMaze */,
+				449AF6BF17B52CAD0004289F /* Supporting Files */,
+				449AF6B517B52CAD0004289F /* Frameworks */,
+				449AF6B417B52CAD0004289F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		449AF6B417B52CAD0004289F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				449AF6B317B52CAD0004289F /* Labyrinth Tilt Maze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		449AF6B517B52CAD0004289F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F798149B193D4D95005F725C /* GameKit.framework */,
+				F7663DBB18A9B5C5005463EE /* iAd.framework */,
+				F7CADA091864A84600F37124 /* CoreMotion.framework */,
+				449AF6B617B52CAD0004289F /* Foundation.framework */,
+				449AF6B817B52CAD0004289F /* CoreGraphics.framework */,
+				449AF6BA17B52CAD0004289F /* UIKit.framework */,
+				449AF6BC17B52CAD0004289F /* SpriteKit.framework */,
+				449AF6DC17B52CAD0004289F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		449AF6BE17B52CAD0004289F /* TiltMaze */ = {
+			isa = PBXGroup;
+			children = (
+				449AF6C717B52CAD0004289F /* AppDelegate.h */,
+				449AF6C817B52CAD0004289F /* AppDelegate.m */,
+				F7AAC12E18E062CB003FE05B /* Images.xcassets */,
+				F7C118FF1861DEF700582DB4 /* iPad */,
+				449AF6CA17B52CAD0004289F /* Main.storyboard */,
+				95BF88361801F9FA00D98EC0 /* Map.h */,
+				95BF88371801F9FA00D98EC0 /* Map.m */,
+				95BF88391802020200D98EC0 /* MapTiles.h */,
+				95BF883A1802020200D98EC0 /* MapTiles.m */,
+				F7C34E84190C701F005EB656 /* SharedAction.h */,
+				F7C34E85190C701F005EB656 /* SharedAction.m */,
+				4414DA7517BD27D400E3CE36 /* Sound */,
+				F7AECFB5186FD74000643B5C /* Sprites */,
+				448D6AFB17B7C9A3002FA381 /* sprites.atlas */,
+				448D6AF917B7C98C002FA381 /* tiles.atlas */,
+			);
+			path = TiltMaze;
+			sourceTree = "<group>";
+		};
+		449AF6BF17B52CAD0004289F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				449AF6C017B52CAD0004289F /* LabyrinthTiltMaze-Info.plist */,
+				449AF6C117B52CAD0004289F /* InfoPlist.strings */,
+				449AF6C417B52CAD0004289F /* main.m */,
+				449AF6C617B52CAD0004289F /* LabyrinthTiltMaze-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = TiltMaze;
+			sourceTree = "<group>";
+		};
+		F708445818A8247500E9FA27 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				F7EF37E819416297008AB3ED /* Level0_1.txt */,
+				F7EF37EA19436225008AB3ED /* Level0_2.txt */,
+				F7EF37EB19436225008AB3ED /* Level0_3.txt */,
+				F7EF37EC19436225008AB3ED /* Level0_4.txt */,
+				F7EF37ED19436225008AB3ED /* Level0_5.txt */,
+				F73CE985190C09E800ECFB00 /* Level1_1.txt */,
+				F72FEBB818D7CECE00653E91 /* Level1_2.txt */,
+				F73CE987190C09E800ECFB00 /* Level1_3.txt */,
+				F73CE988190C09E800ECFB00 /* Level1_4.txt */,
+				F7B7578D18B5A91D00C8F999 /* Level1_5.txt */,
+				F73CE986190C09E800ECFB00 /* Level1_6.txt */,
+				F72FEBB918D7CECE00653E91 /* Level1_7.txt */,
+				F72FEBBA18D7CECE00653E91 /* Level1_8.txt */,
+				F708445918A8247500E9FA27 /* Level1_9.txt */,
+				F7EB82E61901D68E0028F90D /* Level1_10.txt */,
+				F73CE976190B002000ECFB00 /* Level2_1.txt */,
+				F73CE977190B002000ECFB00 /* Level2_2.txt */,
+				F73CE978190B002000ECFB00 /* Level2_3.txt */,
+				F73CE979190B002000ECFB00 /* Level2_4.txt */,
+				F73CE97A190B002000ECFB00 /* Level2_5.txt */,
+				F731F6861911D8EB00498C78 /* Level2_6.txt */,
+				F7CE94C919089B61003A7FDB /* Level2_7.txt */,
+				F731F6881911D8EB00498C78 /* Level2_8.txt */,
+				F731F6891911D8EB00498C78 /* Level2_9.txt */,
+				F731F68A1911D8EB00498C78 /* Level2_10.txt */,
+				F708445F18A8332500E9FA27 /* Level3_1.txt */,
+				F7EB82E71901D68E0028F90D /* Level3_2.txt */,
+				F73CE975190B002000ECFB00 /* Level3_3.txt */,
+				F73CE989190C09E800ECFB00 /* Level3_4.txt */,
+				F7126DDA18E73C8C0031BA3C /* Level3_5.txt */,
+				F7126DD818E732630031BA3C /* Level3_6.txt */,
+				F7B4017D192FBEFA00F1752E /* Level3_7.txt */,
+				F73CE969190AF68600ECFB00 /* Level3_8.txt */,
+				F73CE96A190AF68600ECFB00 /* Level3_9.txt */,
+				F73CE973190AFBCE00ECFB00 /* Level3_10.txt */,
+				F7CE94C819089B61003A7FDB /* Level4_1.txt */,
+				F731F6871911D8EB00498C78 /* Level4_2.txt */,
+				F73CE964190AF68600ECFB00 /* Level4_3.txt */,
+				F73CE965190AF68600ECFB00 /* Level4_4.txt */,
+				F73CE966190AF68600ECFB00 /* Level4_5.txt */,
+				F73CE967190AF68600ECFB00 /* Level4_6.txt */,
+				F73CE968190AF68600ECFB00 /* Level4_7.txt */,
+				F7B40171192FA58100F1752E /* Level4_8.txt */,
+				F7B4017E192FBEFA00F1752E /* Level4_9.txt */,
+				F7B40185192FC8DA00F1752E /* Level4_10.txt */,
+				338753281C19F07D00EF2769 /* Level99_1.txt */,
+				3387532A1C1A0D9A00EF2769 /* Level99_2.txt */,
+				3387532C1C1A0F7900EF2769 /* Level99_3.txt */,
+				338D6B331C1B3B77002487F2 /* Level99_4.txt */,
+				338D6B351C1B3BAC002487F2 /* Level99_5.txt */,
+			);
+			name = Levels;
+			path = TiltMaze/Levels;
+			sourceTree = "<group>";
+		};
+		F708445A18A8247500E9FA27 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				F708445B18A8247500E9FA27 /* FileUtil.h */,
+				F708445C18A8247500E9FA27 /* FileUtil.m */,
+			);
+			name = FileManager;
+			path = TiltMaze/FileManager;
+			sourceTree = "<group>";
+		};
+		F7142AC218D4015600BA98D9 /* menuimages */ = {
+			isa = PBXGroup;
+			children = (
+				338D6B371C1B4304002487F2 /* Level99_1@2x.png */,
+				338D6B381C1B4304002487F2 /* Level99_2@2x.png */,
+				338D6B391C1B4304002487F2 /* Level99_3@2x.png */,
+				338D6B3A1C1B4304002487F2 /* Level99_4@2x.png */,
+				338D6B3B1C1B4304002487F2 /* Level99_5@2x.png */,
+				F71D4CF6194BA76C0013E650 /* Level0_1@2x.png */,
+				F71D4CF7194BA76C0013E650 /* Level0_2@2x.png */,
+				F71D4CF8194BA76C0013E650 /* Level0_3@2x.png */,
+				F71D4CF9194BA76C0013E650 /* Level0_4@2x.png */,
+				F71D4CFA194BA76C0013E650 /* Level0_5@2x.png */,
+				F7B4018B193103C400F1752E /* Button.png */,
+				F7B401891930FE5100F1752E /* WoodBlankBordered@2x.png */,
+				F7B40187192FCD7F00F1752E /* Level4_10@2x.png */,
+				F7B40183192FC8C600F1752E /* Level4_9@2x.png */,
+				F713C98818E11A2A00260816 /* BackBig@2x.png */,
+				F7142AC318D4021F00BA98D9 /* ball-grey@2x.png */,
+				F7126DDC18E750230031BA3C /* greenCheck@2x.png */,
+				F701F5E01915B742007A3D6D /* Level1_10@2x.png */,
+				F701F5D81915B742007A3D6D /* Level1_1@2x.png */,
+				F701F5DC1915B742007A3D6D /* Level1_2@2x.png */,
+				F701F5DA1915B742007A3D6D /* Level1_3@2x.png */,
+				F701F5DB1915B742007A3D6D /* Level1_4@2x.png */,
+				F72FEBBF18D7D01C00653E91 /* Level1_5@2x.png */,
+				F701F5D91915B742007A3D6D /* Level1_6@2x.png */,
+				F701F5DD1915B742007A3D6D /* Level1_7@2x.png */,
+				F701F5DE1915B742007A3D6D /* Level1_8@2x.png */,
+				F701F5DF1915B742007A3D6D /* Level1_9@2x.png */,
+				F7142AC418D4021F00BA98D9 /* Level2@2x.png */,
+				F701F5F21915BF2A007A3D6D /* Level2_10@2x.png */,
+				F701F5EA1915BF2A007A3D6D /* Level2_1@2x.png */,
+				F701F5EB1915BF2A007A3D6D /* Level2_2@2x.png */,
+				F701F5EC1915BF2A007A3D6D /* Level2_3@2x.png */,
+				F701F5ED1915BF2A007A3D6D /* Level2_4@2x.png */,
+				F701F5EE1915BF2A007A3D6D /* Level2_5@2x.png */,
+				F701F5EF1915BF2A007A3D6D /* Level2_6@2x.png */,
+				F701F5FC1915C2DC007A3D6D /* Level2_7@2x.png */,
+				F701F5F01915BF2A007A3D6D /* Level2_8@2x.png */,
+				F701F5F11915BF2A007A3D6D /* Level2_9@2x.png */,
+				F73CE982190B075300ECFB00 /* Level3_10@2x.png */,
+				F7B40173192FAD7300F1752E /* Level3_1@2x.png */,
+				F7B4015D192F8FF500F1752E /* Level3_2@2x.png */,
+				F7B4015E192F8FF500F1752E /* Level3_3@2x.png */,
+				F7B4015F192F8FF500F1752E /* Level3_4@2x.png */,
+				F7B40174192FAD7300F1752E /* Level3_5@2x.png */,
+				F7B40160192F8FF500F1752E /* Level3_6@2x.png */,
+				F7B40181192FC13600F1752E /* Level3_7@2x.png */,
+				F7B40165192F936700F1752E /* Level3_8@2x.png */,
+				F73CE981190B075300ECFB00 /* Level3_9@2x.png */,
+				F7B40166192F936700F1752E /* Level4_1@2x.png */,
+				F7B40167192F936700F1752E /* Level4_2@2x.png */,
+				F7B40168192F936700F1752E /* Level4_3@2x.png */,
+				F7B40169192F936700F1752E /* Level4_4@2x.png */,
+				F7B40179192FB54200F1752E /* Level4_5@2x.png */,
+				F7B4016A192F936700F1752E /* Level4_6@2x.png */,
+				F7B4017B192FB75500F1752E /* Level4_7@2x.png */,
+				F7B40175192FAD7300F1752E /* Level4_8@2x.png */,
+				F72BE91818E8D7DB0000B924 /* Locked@2x.png */,
+				F7126DE418E8AF150031BA3C /* Locked_BW@2x.png */,
+				F72BE91618E8C44C0000B924 /* PlankIPad@2x.png */,
+			);
+			name = menuimages;
+			path = TiltMaze/menuimages;
+			sourceTree = "<group>";
+		};
+		F7A6294D18D1227800EF560D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				449AF6D017B52CAD0004289F /* GameScene.h */,
+				449AF6D117B52CAD0004289F /* GameScene.m */,
+				F7A6294E18D122B700EF560D /* MainScreenScene.h */,
+				F7A6294F18D122B700EF560D /* MainScreenScene.m */,
+				F7065E0718DAAC1F00718E98 /* CreditScreenScene.h */,
+				F7065E0818DAAC1F00718E98 /* CreditScreenScene.m */,
+			);
+			name = Scenes;
+			path = TiltMaze/Scenes;
+			sourceTree = "<group>";
+		};
+		F7AECFB5186FD74000643B5C /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				F7B48E7018BADA5D005BF896 /* BlackHole.h */,
+				F7B48E7118BADA5D005BF896 /* BlackHole.m */,
+				F7D42B98190066A3000B0852 /* Button.h */,
+				F7D42B99190066A3000B0852 /* Button.m */,
+				F7AECFB6186FD74000643B5C /* Hole.h */,
+				F7AECFB7186FD74000643B5C /* Hole.m */,
+				F7142AC718D4100C00BA98D9 /* Laser.h */,
+				F7142AC818D4100C00BA98D9 /* Laser.m */,
+				F7B7578F18B968FC00C8F999 /* PinballBumper.h */,
+				F7B7579018B968FC00C8F999 /* PinballBumper.m */,
+				F7AECFB8186FD74000643B5C /* SpriteCategories.h */,
+			);
+			path = Sprites;
+			sourceTree = "<group>";
+		};
+		F7C118FF1861DEF700582DB4 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		F7D14FE618CAD7F700184F69 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7D14FE718CAD81200184F69 /* MainScreenViewController.h */,
+				F7D14FE818CAD81200184F69 /* MainScreenViewController.m */,
+				F7D6565B18CADAF900359F25 /* SelectLevelViewController.h */,
+				F7D6565C18CADAF900359F25 /* SelectLevelViewController.m */,
+				449AF6CD17B52CAD0004289F /* GameSceneViewController.h */,
+				449AF6CE17B52CAD0004289F /* GameSceneViewController.m */,
+				F7126DDE18E7849F0031BA3C /* LevelSetViewController.h */,
+				F7126DDF18E7849F0031BA3C /* LevelSetViewController.m */,
+				F7065E0418DAABDB00718E98 /* CreditScreenViewController.h */,
+				F7065E0518DAABDB00718E98 /* CreditScreenViewController.m */,
+				F7B4018D1931045700F1752E /* LevelPackCompletedViewController.h */,
+				F7B4018E1931045700F1752E /* LevelPackCompletedViewController.m */,
+			);
+			name = Controllers;
+			path = TiltMaze/Controllers;
+			sourceTree = "<group>";
+		};
+		F7D6565E18CAE05000359F25 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F7D6565F18CAE0A800359F25 /* LevelCell.h */,
+				F7D6566018CAE0A800359F25 /* LevelCell.m */,
+				F7D6566218CAE34700359F25 /* StyleUtil.h */,
+				F7D6566318CAE34700359F25 /* StyleUtil.m */,
+				F7D6566518CAF57C00359F25 /* LevelMgr.h */,
+				F7D6566618CAF57C00359F25 /* LevelMgr.m */,
+				F770659C18CAFB920034C5EA /* Level.h */,
+				F770659D18CAFB920034C5EA /* Level.m */,
+				F7A6295118D1292A00EF560D /* ScaleUtil.h */,
+				F7A6295218D1292A00EF560D /* ScaleUtil.m */,
+				F7D5CFE518DBE81000CA6EE6 /* LevelSet.h */,
+				F7D5CFE618DBE81000CA6EE6 /* LevelSet.m */,
+				F7126DE118E784F10031BA3C /* LevelSetTableViewCell.h */,
+				F7126DE218E784F10031BA3C /* LevelSetTableViewCell.m */,
+			);
+			name = Classes;
+			path = TiltMaze/Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		449AF6B217B52CAD0004289F /* LabyrinthTiltMaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449AF6EC17B52CAD0004289F /* Build configuration list for PBXNativeTarget "LabyrinthTiltMaze" */;
+			buildPhases = (
+				449AF6AF17B52CAD0004289F /* Sources */,
+				449AF6B017B52CAD0004289F /* Frameworks */,
+				449AF6B117B52CAD0004289F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabyrinthTiltMaze;
+			productName = ProceduralLevelGeneration;
+			productReference = 449AF6B317B52CAD0004289F /* Labyrinth Tilt Maze.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		449AF6AB17B52CAD0004289F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dave Butler";
+				TargetAttributes = {
+					449AF6B217B52CAD0004289F = {
+						DevelopmentTeam = W44JP5HVL4;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 449AF6AE17B52CAD0004289F /* Build configuration list for PBXProject "LabyrinthTiltMaze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 449AF6AA17B52CAD0004289F;
+			productRefGroup = 449AF6B417B52CAD0004289F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				449AF6B217B52CAD0004289F /* LabyrinthTiltMaze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		449AF6B117B52CAD0004289F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F701F5E31915B742007A3D6D /* Level1_3@2x.png in Resources */,
+				F7769792186FEA6000F68126 /* 033689323-billiards-ball-falling-pocket-.mp3 in Resources */,
+				F7769791186FEA6000F68126 /* 028535488-steel-ball-roll.mp3 in Resources */,
+				F73CE98E190C09E800ECFB00 /* Level3_4.txt in Resources */,
+				F701F5E51915B742007A3D6D /* Level1_2@2x.png in Resources */,
+				F7CE94CA19089B61003A7FDB /* Level4_1.txt in Resources */,
+				338D6B341C1B3B77002487F2 /* Level99_4.txt in Resources */,
+				F71D4CFD194BA76C0013E650 /* Level0_3@2x.png in Resources */,
+				F72FEBC118D7D01C00653E91 /* Level1_5@2x.png in Resources */,
+				F701F5F41915BF2A007A3D6D /* Level2_2@2x.png in Resources */,
+				F7E744471872A11B009AD72A /* ball_roll2.m4a in Resources */,
+				F72FEBBB18D7CECE00653E91 /* Level1_2.txt in Resources */,
+				F701F5E71915B742007A3D6D /* Level1_8@2x.png in Resources */,
+				F7C1190118621C3600582DB4 /* Maze Muncher In-Game.m4a in Resources */,
+				F72BE91918E8D7DB0000B924 /* Locked@2x.png in Resources */,
+				F71D4CFF194BA76C0013E650 /* Level0_5@2x.png in Resources */,
+				F7B4016D192F936700F1752E /* Level4_2@2x.png in Resources */,
+				F701F5E61915B742007A3D6D /* Level1_7@2x.png in Resources */,
+				F72FEBBD18D7CECE00653E91 /* Level1_8.txt in Resources */,
+				F7AAC12F18E062CB003FE05B /* Images.xcassets in Resources */,
+				F73CE97E190B002000ECFB00 /* Level2_3.txt in Resources */,
+				F708446018A8332500E9FA27 /* Level3_1.txt in Resources */,
+				F73CE98C190C09E800ECFB00 /* Level1_3.txt in Resources */,
+				3387532B1C1A0D9A00EF2769 /* Level99_2.txt in Resources */,
+				F7D42B9C1900A86D000B0852 /* 020073177-switch-button-1.mp3 in Resources */,
+				F71D4CFE194BA76C0013E650 /* Level0_4@2x.png in Resources */,
+				F7EF37EE19436225008AB3ED /* Level0_2.txt in Resources */,
+				F73CE970190AF68600ECFB00 /* Level4_7.txt in Resources */,
+				448D6AFC17B7C9A3002FA381 /* sprites.atlas in Resources */,
+				F73CE972190AF68600ECFB00 /* Level3_9.txt in Resources */,
+				F7EB82E91901D68E0028F90D /* Level3_2.txt in Resources */,
+				F71D4CFC194BA76C0013E650 /* Level0_2@2x.png in Resources */,
+				F7B4018C193103C400F1752E /* Button.png in Resources */,
+				F73CE96F190AF68600ECFB00 /* Level4_6.txt in Resources */,
+				F728414F18D4BCF200BEFA9C /* 027399135-laser-subtle-pulse-beam-01.mp3 in Resources */,
+				338D6B3F1C1B4304002487F2 /* Level99_4@2x.png in Resources */,
+				F7B4017F192FBEFA00F1752E /* Level3_7.txt in Resources */,
+				F7D42B7B18FF75A8000B0852 /* 032143410-next-wooden-select-sfx.mp3 in Resources */,
+				F731F68F1911D8EB00498C78 /* Level2_10.txt in Resources */,
+				F72FEBBC18D7CECE00653E91 /* Level1_7.txt in Resources */,
+				F73CE98D190C09E800ECFB00 /* Level1_4.txt in Resources */,
+				F73CE984190B075300ECFB00 /* Level3_10@2x.png in Resources */,
+				F701F5F91915BF2A007A3D6D /* Level2_8@2x.png in Resources */,
+				F7B4016C192F936700F1752E /* Level4_1@2x.png in Resources */,
+				F73CE97F190B002000ECFB00 /* Level2_4.txt in Resources */,
+				F7EB82E81901D68E0028F90D /* Level1_10.txt in Resources */,
+				F7EF37F119436225008AB3ED /* Level0_5.txt in Resources */,
+				F7126DDD18E750230031BA3C /* greenCheck@2x.png in Resources */,
+				F701F5F71915BF2A007A3D6D /* Level2_5@2x.png in Resources */,
+				F701F5E41915B742007A3D6D /* Level1_4@2x.png in Resources */,
+				F7D42B9E1900C5A3000B0852 /* 008619895-wood-plank-movement-02.mp3 in Resources */,
+				449AF6C317B52CAD0004289F /* InfoPlist.strings in Resources */,
+				F731F68D1911D8EB00498C78 /* Level2_8.txt in Resources */,
+				F7B4016E192F936700F1752E /* Level4_3@2x.png in Resources */,
+				F7AECFC8186FDD5900643B5C /* fail.mp3 in Resources */,
+				F701F5F31915BF2A007A3D6D /* Level2_1@2x.png in Resources */,
+				F7142AC518D4021F00BA98D9 /* ball-grey@2x.png in Resources */,
+				F71D4CFB194BA76C0013E650 /* Level0_1@2x.png in Resources */,
+				F701F5FD1915C2DC007A3D6D /* Level2_7@2x.png in Resources */,
+				F7B40161192F8FF500F1752E /* Level3_2@2x.png in Resources */,
+				F7DF29B918C8308C00803E8B /* 008900349-vortex.mp3 in Resources */,
+				F701F5F81915BF2A007A3D6D /* Level2_6@2x.png in Resources */,
+				F7B40162192F8FF500F1752E /* Level3_3@2x.png in Resources */,
+				F7B40180192FBEFA00F1752E /* Level4_9.txt in Resources */,
+				F7B40164192F8FF500F1752E /* Level3_6@2x.png in Resources */,
+				F701F5E91915B742007A3D6D /* Level1_10@2x.png in Resources */,
+				338753291C19F07D00EF2769 /* Level99_1.txt in Resources */,
+				F7B4017A192FB54200F1752E /* Level4_5@2x.png in Resources */,
+				F73CE98B190C09E800ECFB00 /* Level1_6.txt in Resources */,
+				F701F5FB1915BF2A007A3D6D /* Level2_10@2x.png in Resources */,
+				F701F5F51915BF2A007A3D6D /* Level2_3@2x.png in Resources */,
+				F731F68E1911D8EB00498C78 /* Level2_9.txt in Resources */,
+				F7B40172192FA58100F1752E /* Level4_8.txt in Resources */,
+				F73CE983190B075300ECFB00 /* Level3_9@2x.png in Resources */,
+				F73CE98A190C09E800ECFB00 /* Level1_1.txt in Resources */,
+				F7142AC618D4021F00BA98D9 /* Level2@2x.png in Resources */,
+				F73CE97B190B002000ECFB00 /* Level3_3.txt in Resources */,
+				F7B4016B192F936700F1752E /* Level3_8@2x.png in Resources */,
+				338D6B361C1B3BAC002487F2 /* Level99_5.txt in Resources */,
+				F7663DB818A9B44F005463EE /* Marble Game.m4a in Resources */,
+				F73CE971190AF68600ECFB00 /* Level3_8.txt in Resources */,
+				F7B4018A1930FE5100F1752E /* WoodBlankBordered@2x.png in Resources */,
+				F72BE91718E8C44C0000B924 /* PlankIPad@2x.png in Resources */,
+				F731F68B1911D8EB00498C78 /* Level2_6.txt in Resources */,
+				F731F68C1911D8EB00498C78 /* Level4_2.txt in Resources */,
+				F7769794186FFD7000F68126 /* ball_roll.m4a in Resources */,
+				F73CE980190B002000ECFB00 /* Level2_5.txt in Resources */,
+				F7EF37E919416297008AB3ED /* Level0_1.txt in Resources */,
+				338D6B3E1C1B4304002487F2 /* Level99_3@2x.png in Resources */,
+				F73CE96C190AF68600ECFB00 /* Level4_3.txt in Resources */,
+				F7B4016F192F936700F1752E /* Level4_4@2x.png in Resources */,
+				F7EC999F18BA929D0032B614 /* PinballBumper.m4a in Resources */,
+				F70B73B918FF6AC500DDB485 /* 012727074-tada-fanfare.mp3 in Resources */,
+				F73CE96D190AF68600ECFB00 /* Level4_4.txt in Resources */,
+				F7126DD918E732630031BA3C /* Level3_6.txt in Resources */,
+				F7B40186192FC8DA00F1752E /* Level4_10.txt in Resources */,
+				F7B40170192F936700F1752E /* Level4_6@2x.png in Resources */,
+				F7B40178192FAD7300F1752E /* Level4_8@2x.png in Resources */,
+				F701F5E21915B742007A3D6D /* Level1_6@2x.png in Resources */,
+				F7126DE518E8AF150031BA3C /* Locked_BW@2x.png in Resources */,
+				F7B40177192FAD7300F1752E /* Level3_5@2x.png in Resources */,
+				F7B40182192FC13600F1752E /* Level3_7@2x.png in Resources */,
+				F728415118D4BCF200BEFA9C /* Laser.m4a in Resources */,
+				F708445D18A8247500E9FA27 /* Level1_9.txt in Resources */,
+				3387532D1C1A0F7900EF2769 /* Level99_3.txt in Resources */,
+				338D6B3C1C1B4304002487F2 /* Level99_1@2x.png in Resources */,
+				F73CE97D190B002000ECFB00 /* Level2_2.txt in Resources */,
+				F7126DDB18E73C8C0031BA3C /* Level3_5.txt in Resources */,
+				F7B4017C192FB75500F1752E /* Level4_7@2x.png in Resources */,
+				F728415318D4E46100BEFA9C /* 006142270-electrical-burst-02.mp3 in Resources */,
+				449AF6CC17B52CAD0004289F /* Main.storyboard in Resources */,
+				F713C98918E11A2A00260816 /* BackBig@2x.png in Resources */,
+				F7B40163192F8FF500F1752E /* Level3_4@2x.png in Resources */,
+				F73CE96E190AF68600ECFB00 /* Level4_5.txt in Resources */,
+				448D6AFA17B7C98C002FA381 /* tiles.atlas in Resources */,
+				F7EF37F019436225008AB3ED /* Level0_4.txt in Resources */,
+				F7B40184192FC8C600F1752E /* Level4_9@2x.png in Resources */,
+				F7EF37EF19436225008AB3ED /* Level0_3.txt in Resources */,
+				F701F5E11915B742007A3D6D /* Level1_1@2x.png in Resources */,
+				338D6B3D1C1B4304002487F2 /* Level99_2@2x.png in Resources */,
+				F73CE97C190B002000ECFB00 /* Level2_1.txt in Resources */,
+				F7B40176192FAD7300F1752E /* Level3_1@2x.png in Resources */,
+				F7B40188192FCD7F00F1752E /* Level4_10@2x.png in Resources */,
+				338D6B401C1B4304002487F2 /* Level99_5@2x.png in Resources */,
+				F73CE974190AFBCE00ECFB00 /* Level3_10.txt in Resources */,
+				F701F5E81915B742007A3D6D /* Level1_9@2x.png in Resources */,
+				F77697961870002200F68126 /* ball_hole.m4a in Resources */,
+				F7E7444518729856009AD72A /* bounce.m4a in Resources */,
+				F7B7578E18B5A91D00C8F999 /* Level1_5.txt in Resources */,
+				F7CE94CB19089B61003A7FDB /* Level2_7.txt in Resources */,
+				F701F5FA1915BF2A007A3D6D /* Level2_9@2x.png in Resources */,
+				F701F5F61915BF2A007A3D6D /* Level2_4@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		449AF6AF17B52CAD0004289F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BF88381801F9FA00D98EC0 /* Map.m in Sources */,
+				F7AECFB9186FD74000643B5C /* Hole.m in Sources */,
+				F7D6566118CAE0A900359F25 /* LevelCell.m in Sources */,
+				F7065E0618DAABDB00718E98 /* CreditScreenViewController.m in Sources */,
+				F7B4018F1931045700F1752E /* LevelPackCompletedViewController.m in Sources */,
+				F708445E18A8247500E9FA27 /* FileUtil.m in Sources */,
+				F7142AC918D4100C00BA98D9 /* Laser.m in Sources */,
+				F7D6566418CAE34700359F25 /* StyleUtil.m in Sources */,
+				F7D42B9A190066A3000B0852 /* Button.m in Sources */,
+				F7B7579118B968FC00C8F999 /* PinballBumper.m in Sources */,
+				F7D5CFE718DBE81000CA6EE6 /* LevelSet.m in Sources */,
+				F7A6295318D1292A00EF560D /* ScaleUtil.m in Sources */,
+				95BF883B1802020200D98EC0 /* MapTiles.m in Sources */,
+				F7D6565D18CADAF900359F25 /* SelectLevelViewController.m in Sources */,
+				F7065E0918DAAC1F00718E98 /* CreditScreenScene.m in Sources */,
+				F7126DE018E7849F0031BA3C /* LevelSetViewController.m in Sources */,
+				F7D6566718CAF57C00359F25 /* LevelMgr.m in Sources */,
+				F7D14FE918CAD81200184F69 /* MainScreenViewController.m in Sources */,
+				F770659E18CAFB920034C5EA /* Level.m in Sources */,
+				449AF6D217B52CAD0004289F /* GameScene.m in Sources */,
+				F7A6295018D122B700EF560D /* MainScreenScene.m in Sources */,
+				449AF6CF17B52CAD0004289F /* GameSceneViewController.m in Sources */,
+				449AF6C917B52CAD0004289F /* AppDelegate.m in Sources */,
+				F7126DE318E784F10031BA3C /* LevelSetTableViewCell.m in Sources */,
+				449AF6C517B52CAD0004289F /* main.m in Sources */,
+				F7C34E86190C701F005EB656 /* SharedAction.m in Sources */,
+				F7B48E7218BADA5D005BF896 /* BlackHole.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		449AF6C117B52CAD0004289F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				449AF6C217B52CAD0004289F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		449AF6CA17B52CAD0004289F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				449AF6CB17B52CAD0004289F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		449AF6EA17B52CAD0004289F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dave Butler (G677ZVAAYU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dave Butler (G677ZVAAYU)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		449AF6EB17B52CAD0004289F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dave Butler (G677ZVAAYU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dave Butler (G677ZVAAYU)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		449AF6ED17B52CAD0004289F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TiltMaze/LabyrinthTiltMaze-Prefix.pch";
+				INFOPLIST_FILE = "TiltMaze/LabyrinthTiltMaze-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DHBWorlds.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Labyrinth Tilt Maze";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		449AF6EE17B52CAD0004289F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TiltMaze/LabyrinthTiltMaze-Prefix.pch";
+				INFOPLIST_FILE = "TiltMaze/LabyrinthTiltMaze-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DHBWorlds.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Labyrinth Tilt Maze";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		449AF6AE17B52CAD0004289F /* Build configuration list for PBXProject "LabyrinthTiltMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449AF6EA17B52CAD0004289F /* Debug */,
+				449AF6EB17B52CAD0004289F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449AF6EC17B52CAD0004289F /* Build configuration list for PBXNativeTarget "LabyrinthTiltMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449AF6ED17B52CAD0004289F /* Debug */,
+				449AF6EE17B52CAD0004289F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 449AF6AB17B52CAD0004289F /* Project object */;
+}
